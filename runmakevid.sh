@@ -9,7 +9,7 @@ set -euo pipefail
 #  Change to the correct project directory
 # ────────────────────────────────────────────────
 
-TARGET_DIR="$HOME/YOUR/LOCATION/HERE"
+TARGET_DIR="$HOME/Developer/VidGen"
 
 if [ ! -d "$TARGET_DIR" ]; then
     echo "Error: Directory not found: $TARGET_DIR"
